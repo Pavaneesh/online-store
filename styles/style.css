@@ -1,0 +1,90 @@
+/************Reset**************/
+ol, ul {
+    list-style: none;
+}
+
+header, footer, nav, section, article {
+    display: block;
+}
+
+/************End Reset**************/
+
+/************Nav**************/
+.navbar {
+    padding: 10px;
+}
+
+.navbar-header {
+    border-right-style: solid;
+    border-color: #95A5A6;
+}
+
+/************End of Nav**************/
+
+/************Body**************/
+
+.sectionLeft{
+    border: none;
+    padding: 10px;
+    background: #dddddd;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.online{
+    background-image: url("https://cu3.uicdn.net/4bc/fc540b6cc82099a2d3a9662a443e7/webapp/7623-new-stage_eshop_US.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    border-style: solid;
+    border-radius: 15px;
+    height: 510px;
+    /*margin: top right bottom left*/
+    margin-top: -18px;
+    margin-bottom: -10px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+/************End of Body**************/
+
+/*************Footer***************/
+.footer {
+    background: #17202A;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.bottom li a {
+    color: #fff;
+}
+
+.bottom li.tel a {
+    background: #34495E;
+    color: #999;
+    border: 1px solid #444;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+/*************End Footer***************/
